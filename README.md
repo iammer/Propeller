@@ -1,4 +1,4 @@
 Propeller
 =========
 
-Random Spin File for Parallax Propeller
+Random Spin Files for Parallax Propeller
