@@ -1,0 +1,7 @@
+*
+!*.spin
+!*.txt
+!Library/
+!Library/*.spin
+!.gitignore
+
