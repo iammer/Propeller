@@ -21,8 +21,14 @@ CON
 
 PUB start | loc, led, ledDir, i, s, random, j
 
+   outa[7]~
+   outa[6]~~
+
+   dira[7]~~
+   dira[6]~~
+
   'pst.start(115200)
-  nok.start(16,17,18,19,20,21,@lcdBuffer)
+  nok.start(5,4,3,2,1,0,@lcdBuffer)
 
   random:=cnt
   repeat i from 0 to 7 step 2

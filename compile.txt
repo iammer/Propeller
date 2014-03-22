@@ -1,0 +1,1 @@
+openspin -L include -L Library -o /tmp/spin.binary -b -v attiny.spin && propeller-load -r -t -v /tmp/spin.binary
